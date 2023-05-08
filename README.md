@@ -8,7 +8,7 @@ The theme that this style is based on was introduced in August 2014 and disconti
 ## Install
 This style can be installed from [UserStyles.world](https://userstyles.world/style/512/winworld-classic).
 
-Alternatively, if you are using Stylus, you can install the style by selecting the `winworld.user.css` file from the repository.
+Alternatively, if you are using Stylus, you can install the style by selecting the `winworldpc.user.css` file from the repository.
 
 ## Changelogs
 **May 7th, 2023** `v12`
