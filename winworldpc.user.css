@@ -16,11 +16,11 @@
         font-family: droid-sans, sans-serif
     }
     nav#navbar {
-        background: url('https://i.ibb.co/NyXghbq/K5lvIKr.png');
+        background: url('https://github.com/CocoTheMii/coco-userstyles/raw/winworld-classic/header_bg.png');
         border-bottom: 1px solid #778
     }
     footer.footer {
-        background: url('https://i.ibb.co/NyXghbq/K5lvIKr.png');
+        background: url('https://github.com/CocoTheMii/coco-userstyles/raw/winworld-classic/header_bg.png');
         border-top: 1px solid #778;
         height: 95px
     }
@@ -51,7 +51,7 @@
     a.navbar-brand {
         width: 216px;
         height: 45px;
-        background: url('https://i.ibb.co/bzxcB6H/CVGo3CG.png');
+        background: url('https://github.com/CocoTheMii/coco-userstyles/raw/winworld-classic/header_p2_blue.png');
         text-indent: 100%;
         white-space: nowrap;
         overflow: hidden
@@ -516,7 +516,7 @@ url-prefix("https://winworldpc.com/search") {
 @-moz-document url("https://winworldpc.com/about") {
     div.container.mt-2 p:nth-of-type(6):after {
         float: right;
-        content: url('https://i.ibb.co/JcJVysZ/jp27Agi.png');
+        content: url('https://github.com/CocoTheMii/coco-userstyles/raw/winworld-classic/mu-logo.png');
     }
 }
 @-moz-document url-prefix("https://winworldpc.com/screenshot") {
