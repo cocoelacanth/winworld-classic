@@ -6,9 +6,9 @@ The theme that this style is based on was introduced in August 2014 and disconti
 *Majestically powered since August 29th, 2020.*
 
 ## Install
-This style can be installed from [UserStyles.world](https://userstyles.world/style/512/winworld-classic).
+This style is available on [UserStyles.world](https://userstyles.world/style/512/winworld-classic).
 
-Alternatively, if you are using Stylus, you can install the style [directly from GitHub](https://github.com/CocoTheMii/coco-userstyles/raw/winworld-classic/winworldpc.user.css).
+Alternatively, you can install the style [directly from GitHub](https://github.com/CocoTheMii/coco-userstyles/raw/winworld-classic/winworldpc.user.css).
 
 ## Changelogs
 **May 7th, 2023** `v12`
