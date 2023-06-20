@@ -56,6 +56,7 @@ Alternatively, you can install the style [directly from GitHub](https://github.c
 * Added a little bonus to the About page for a bit of added nostalgia
 
 **August 29th, 2020** `v1`
+
 The initial release of this style brings back the overall look of WinWorld from 2017 and earlier. This includes details such as:
 * Dark elements, including buttons, input boxes, and alerts
 * A heavy focus on orange and yellow accent colours
