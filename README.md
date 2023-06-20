@@ -11,6 +11,10 @@ This style is available on [UserStyles.world](https://userstyles.world/style/512
 Alternatively, you can install the style [directly from GitHub](https://github.com/CocoTheMii/coco-userstyles/raw/winworld-classic/winworldpc.user.css).
 
 ## Changelogs
+**June 20th, 2023** `v12.1`
+* Reorganized files on GitHub
+* Updated style to point to new file locations
+
 **May 7th, 2023** `v12`
 * Added slogan to footer
 * Removed "Majestically Powered" text from About page
