@@ -5,6 +5,8 @@ The theme that this style is based on was introduced in August 2014 and disconti
 
 *Majestically powered since August 29th, 2020.*
 
+![screenshot](https://github.com/CocoTheMii/coco-userstyles/blob/winworld-classic/preview.png?raw=true)
+
 ## Install
 This style is available on [UserStyles.world](https://userstyles.world/style/512/winworld-classic).
 
