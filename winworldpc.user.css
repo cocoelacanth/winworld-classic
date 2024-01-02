@@ -1,7 +1,7 @@
 /* ==UserStyle==
 @name           WinWorld Classic
 @namespace      winworldpc.com
-@version        13
+@version        13.1
 @description    Recreates the look and feel of WinWorld from August 2014 to September 2017.
 @author         CocoTheMii
 @preprocessor   stylus
@@ -44,7 +44,7 @@
     footer.footer div.container span.text-muted a:hover {
         color: #fc0
     }
-    footer.footer div.container:before {
+    footer.footer div.container::before {
         content: "from the past, to the present, for the future";
         font-size: 16pt;
         font-style: italic;
@@ -519,7 +519,7 @@ url-prefix("https://winworldpc.com/search") {
     }
 }
 @-moz-document url("https://winworldpc.com/about") {
-    div.container.mt-2 p:nth-of-type(6):after {
+    div.container.mt-2 p:nth-of-type(6)::after {
         float: right;
         content: var(--majestic);
     }
@@ -624,10 +624,10 @@ url-prefix("https://winworldpc.com/search") {
         border: 1px solid #778;
         border-radius: 0
     }
-    li.ItemComment div.Comment div.Options span.OptionsMenu ul.Flyout:before {
+    li.ItemComment div.Comment div.Options span.OptionsMenu ul.Flyout::before {
         border-bottom: 7px solid #778
     }
-    li.ItemComment div.Comment div.Options span.OptionsMenu ul.Flyout:after {
+    li.ItemComment div.Comment div.Options span.OptionsMenu ul.Flyout::after {
         border-bottom: 7px solid #2f2f2f
     }
     li.ItemComment div.Comment div.Options span.OptionsMenu ul.Flyout li a {

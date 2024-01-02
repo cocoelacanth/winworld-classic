@@ -11,6 +11,9 @@ This style is available on [UserStyles.world](https://userstyles.world/style/512
 Alternatively, you can install the style [directly from GitHub](https://github.com/CocoTheMii/coco-userstyles/raw/winworld-classic/winworldpc.user.css).
 
 ## Changelogs
+**January 1st, 2024** `v13.1`
+* Fix `::before` and `::after` formatting
+
 **January 1st, 2024** `v13`
 * Use data URLs for images
 * Image URLs are now stored as variables at the bottom of the file
