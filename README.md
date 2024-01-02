@@ -1,7 +1,5 @@
 # WinWorld Classic
-This userstyle aims to recreate the look and feel of WinWorld prior to the introduction of Adventure.
-
-The theme that this style is based on was introduced in August 2014 and discontinued in September 2017.
+Recreates the look and feel of WinWorld immediately prior to the introduction of Adventure in September 2017.
 
 *Majestically powered since August 29th, 2020.*
 
