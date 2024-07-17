@@ -3,7 +3,7 @@ Recreates the look and feel of WinWorld immediately prior to the introduction of
 
 *Majestically powered since August 29th, 2020.*
 
-![screenshot](https://github.com/CocoTheMii/coco-userstyles/blob/winworld-classic/preview.png?raw=true)
+![screenshot](preview.png)
 
 ## Install
 This style is available on [UserStyles.world](https://userstyles.world/style/512/winworld-classic).
@@ -11,6 +11,12 @@ This style is available on [UserStyles.world](https://userstyles.world/style/512
 Alternatively, you can install the style [directly from GitHub](https://github.com/CocoTheMii/coco-userstyles/raw/winworld-classic/winworldpc.user.css).
 
 ## Changelogs
+#### July 17th, 2024 `14`
+* Some minor code cleanup
+* Overhaul button code (this should fix some bugs and improve consistency)
+* Fix `<select>` element styling in Advanced Search
+* Remove code for green text on homepage (was broken and unnecessary)
+
 #### January 1st, 2024 `v13.1`
 * Fix `::before` and `::after` formatting
 
