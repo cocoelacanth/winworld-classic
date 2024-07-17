@@ -8,7 +8,7 @@ Recreates the look and feel of WinWorld immediately prior to the introduction of
 ## Install
 This style is available on [UserStyles.world](https://userstyles.world/style/512/winworld-classic).
 
-Alternatively, you can install the style [directly from GitHub](https://github.com/CocoTheMii/coco-userstyles/raw/winworld-classic/winworldpc.user.css).
+Alternatively, you can install the style [directly from GitHub](https://github.com/CocoTheMii/winworld-classic/raw/main/winworldpc.user.css).
 
 ## Changelogs
 #### July 17th, 2024 `14`
