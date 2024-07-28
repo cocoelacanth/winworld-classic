@@ -11,7 +11,19 @@ This style is available on [UserStyles.world](https://userstyles.world/style/512
 Alternatively, you can install the style [directly from GitHub](https://github.com/CocoTheMii/winworld-classic/raw/main/winworldpc.user.css).
 
 ## Changelogs
-#### July 17th, 2024 `14`
+#### July 28th, 2024 `v15`
+* Complete rewrite; the new code is over 300 lines shorter
+    * Tab width reduced from 4 to 2 spaces
+    * Code sections are now labelled by purpose
+    * The code is now much more modular and easily modifiable
+* Added a fullwidth mode, wherein the page content fills the entire width of the display
+* Text inputs are now more historically accurate and easier to distinguish
+    * Light blue text on a black background
+    * Orange glow when selected
+    * Should no longer turn white when selected
+* Visibility of various platform logos (PPC, VAX, Z80, Other) improved
+
+#### July 17th, 2024 `v14`
 * Some minor code cleanup
 * Overhaul button code (this should fix some bugs and improve consistency)
 * Fix `<select>` element styling in Advanced Search
@@ -74,7 +86,6 @@ Alternatively, you can install the style [directly from GitHub](https://github.c
 * Added a little bonus to the About page for a bit of added nostalgia
 
 #### August 29th, 2020 `v1`
-
 The initial release of this style brings back the overall look of WinWorld from 2017 and earlier. This includes details such as:
 * Dark elements, including buttons, input boxes, and alerts
 * A heavy focus on orange and yellow accent colours
@@ -84,6 +95,3 @@ The initial release of this style brings back the overall look of WinWorld from 
 * Product comment sections styled to match the rest of the site
 * A classic look for pages that didn't exist on the old site
 * Lots of other small details and adjustments to make the experience more authentic
-
-## Other Styles
-Other userstyles can be accessed by switching to another branch.
