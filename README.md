@@ -19,7 +19,7 @@ This style has several options to customize the look and feel of the website. Th
 * **Fullwidth mode** `nomargin`
     * Disable left and right body margins, allowing content to fill the entire width of the display
     * Added in [`v15`](https://github.com/CocoTheMii/winworld-classic#july-28th-2024-v15)
-* **Disable smooth transitions** `notransition`
+* **Disable CSS transitions** `notransition`
     * Disable smooth fade effect when interacting with inputs and buttons
     * Added in [`v16`](https://github.com/CocoTheMii/winworld-classic#august-1st-2024-v16)
 
