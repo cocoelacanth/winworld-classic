@@ -1,5 +1,5 @@
 # WinWorld Classic
-Recreates the look and feel of WinWorld immediately prior to the introduction of Adventure in September 2017.
+Recreates the look and feel of WinWorld immediately prior to the switch to Bootstrap in September 2017.
 
 *Majestically powered since August 29th, 2020.*
 
@@ -8,9 +8,29 @@ Recreates the look and feel of WinWorld immediately prior to the introduction of
 ## Install
 This style is available on [UserStyles.world](https://userstyles.world/style/512/winworld-classic).
 
-Alternatively, you can install the style [directly from GitHub](https://github.com/CocoTheMii/winworld-classic/raw/main/winworldpc.user.css).
+Installing from GitHub (via `winworldpc.user.css`) is also possible, but not recommended.
+
+### Options
+This style has several options to customize the look and feel of the website. These bring the overall experience closer to that of the old site, but may be undesirable to some users.
+
+* **Use classic font** `oldfont` *(enabled by default)*
+    * Replace the sitewide font with Droid Sans
+    * Added in [`v13`](https://github.com/CocoTheMii/winworld-classic#january-1st-2024-v13)
+* **Fullwidth mode** `nomargin`
+    * Disable left and right body margins, allowing content to fill the entire width of the display
+    * Added in [`v15`](https://github.com/CocoTheMii/winworld-classic#july-28th-2024-v15)
+* **Disable smooth transitions** `notransition`
+    * Disable smooth fade effect when interacting with inputs and buttons
+    * Added in [`v16`](https://github.com/CocoTheMii/winworld-classic#august-1st-2024-v16)
 
 ## Changelogs
+#### August 1st, 2024 `v16`
+* Added an option to disable fade transitions when interacting with inputs and buttons
+* Subheaders are now light blue
+* Download counts in search results are now properly coloured
+* Orange glow on text inputs now also applies to product comments
+* Reimplemented blockquote visibility improvements for product comments
+
 #### July 28th, 2024 `v15`
 * Complete rewrite; the new code is over 300 lines shorter
     * Tab width reduced from 4 to 2 spaces
@@ -95,3 +115,5 @@ The initial release of this style brings back the overall look of WinWorld from 
 * Product comment sections styled to match the rest of the site
 * A classic look for pages that didn't exist on the old site
 * Lots of other small details and adjustments to make the experience more authentic
+
+![](images/mu-logo.png)
