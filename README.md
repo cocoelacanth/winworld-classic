@@ -15,13 +15,13 @@ This style has several options to customize the look and feel of the website. Th
 
 * **Use classic font** `oldfont` *(enabled by default)*
     * Replace the sitewide font with Droid Sans
-    * Added in [`v13`](https://github.com/CocoTheMii/winworld-classic#january-1st-2024-v13)
+    * Added in [`v13`](https://github.com/cocoelacanth/winworld-classic#january-1st-2024-v13)
 * **Fullwidth mode** `nomargin`
     * Disable left and right body margins, allowing content to fill the entire width of the display
-    * Added in [`v15`](https://github.com/CocoTheMii/winworld-classic#july-28th-2024-v15)
+    * Added in [`v15`](https://github.com/cocoelacanth/winworld-classic#july-28th-2024-v15)
 * **Disable CSS transitions** `notransition`
     * Disable smooth fade effect when interacting with inputs and buttons
-    * Added in [`v16`](https://github.com/CocoTheMii/winworld-classic#august-1st-2024-v16)
+    * Added in [`v16`](https://github.com/cocoelacanth/winworld-classic#august-1st-2024-v16)
 
 ## Changelogs
 #### August 1st, 2024 `v16`
