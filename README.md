@@ -10,7 +10,7 @@ This style is available on [UserStyles.world](https://userstyles.world/style/512
 
 Installing from GitHub (via `winworldpc.user.css`) is also possible, but not recommended.
 
-### Options
+## Options
 This style has several options to customize the look and feel of the website. These bring the overall experience closer to that of the old site, but may be undesirable to some users.
 
 As of `v17`, all of these are enabled by default. It is recommended that you leave them enabled, but you may disable them if you prefer.
