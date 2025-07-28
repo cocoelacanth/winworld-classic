@@ -13,7 +13,9 @@ Installing from GitHub (via `winworldpc.user.css`) is also possible, but not rec
 ### Options
 This style has several options to customize the look and feel of the website. These bring the overall experience closer to that of the old site, but may be undesirable to some users.
 
-* **Use classic font** `oldfont` *(enabled by default)*
+As of `v17`, all of these are enabled by default. It is recommended that you leave them enabled, but you may disable them if you prefer.
+
+* **Use classic font** `oldfont`
     * Replace the sitewide font with Droid Sans
     * Added in [`v13`](#january-1st-2024-v13)
 * **Fullwidth mode** `nomargin`
@@ -24,6 +26,15 @@ This style has several options to customize the look and feel of the website. Th
     * Added in [`v16`](#august-1st-2024-v16)
 
 ## Changelogs
+#### July 27th, 2025 `v17`
+* All optional effects are now enabled by default
+* The Bluesky embed now shows black text on a white background
+    * Since the feed is a shadow DOM, blending it in with the rest of the page is unfortunately not possible via a userstyle
+* Added styling for code blocks in comments
+* Library comments should no longer show a stray horizontal line while loading
+* Success alerts now have green borders
+* More accurate colours for text fields
+
 #### August 1st, 2024 `v16`
 * Added an option to disable fade transitions when interacting with inputs and buttons
 * Subheaders are now light blue

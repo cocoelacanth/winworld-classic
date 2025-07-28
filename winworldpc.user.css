@@ -1,13 +1,13 @@
 /* ==UserStyle==
 @name           WinWorld Classic
 @namespace      winworldpc.com
-@version        16
-@description    Recreates the look and feel of WinWorld from August 2014 to September 2017.
-@author         CocoTheMii
+@version        17
+@description    Brings back the dark appearance and starry skies of WinWorld from the pre-Bootstrap days.
+@author         cocoelacanth
 @preprocessor   stylus
 @var            checkbox oldfont "Use classic font" 1
-@var            checkbox nomargin "Fullwidth mode" 0
-@var            checkbox notransition "Disable CSS transitions" 0
+@var            checkbox nomargin "Fullwidth mode" 1
+@var            checkbox notransition "Disable CSS transitions" 1
 ==/UserStyle== */
 @-moz-document url-prefix("https://winworldpc.com") {
   /* global styles */
@@ -44,7 +44,7 @@
     font-size: 16pt;
     font-style: italic;
     color: var(--babyblue);
-    text-shadow: 0.1em 0.1em 0.3em black;
+    text-shadow: 0.1em 0.1em 0.3em var(--black);
     display: block;
     margin-bottom: 5px;
   }
@@ -125,6 +125,9 @@
   .alert-danger {
     border: 1px solid var(--red1);
   }
+  .alert-success {
+    border: 1px solid var(--green1);
+  }
   #serialSheet {
     border: 1px solid var(--orange1);
   }
@@ -151,13 +154,16 @@
   .form-control,
   .form-control:focus,
   .form-control::placeholder {
-    color: var(--babyblue);
+    color: var(--text);
     background: var(--black);
     border: 1px solid var(--border1);
     border-radius: 0;
   }
   .form-control:focus {
-    box-shadow: inset 0 1px 1px rgba(0, 0, 0, .075), 0 0 8px rgba(255, 102, 0, 0.6);
+    box-shadow: inset 0 1px 1px var(--focus-in), 0 0 8px var(--focus-out);
+  }
+  .form-control::placeholder {
+    color: var(--babyblue);
   }
   .form-control[readonly=""] {
     color: var(--white);
@@ -201,6 +207,14 @@
   }
   tbody td {
     border-top: 1px solid var(--white) !important;
+  }
+}
+@-moz-document url-prefix("https://winworldpc.com/home") {
+  /* bsky embed */
+  .col-md-4 .panel-body > p:first-of-type {
+    color: var(--black);
+    background-color: var(--white);
+    border: 1px solid var(--border1);
   }
 }
 @-moz-document url-prefix("https://winworldpc.com/library"),
@@ -271,6 +285,7 @@ url-prefix("https://winworldpc.com/download") {
   /* embedded comments */
   body {
     color: var(--text);
+    border-bottom: 1px solid var(--border1);
   }
   a {
     color: var(--orange1);
@@ -280,6 +295,7 @@ url-prefix("https://winworldpc.com/download") {
   }
   .Embed {
     border: 1px solid var(--border1);
+    border-bottom: none;
   }
   h2 {
     margin: 0;
@@ -312,13 +328,13 @@ url-prefix("https://winworldpc.com/download") {
   }
   .TextBox:focus {
     outline: none;
-    box-shadow: inset 0 1px 1px rgba(0, 0, 0, .075), 0 0 8px rgba(255, 102, 0, 0.6);
+    box-shadow: inset 0 1px 1px var(--focus-in), 0 0 8px var(--focus-out);
   }
   .MessageList {
     background: var(--grey-bg1);
   }
   .ItemComment {
-    border-top: 1px solid var(--border1) !important;
+    border-bottom: 1px solid var(--border1) !important;
   }
   .Author,
   .DateUpdated {
@@ -327,6 +343,10 @@ url-prefix("https://winworldpc.com/download") {
   blockquote.Quote,
   blockquote.UserQuote {
     background: rgba(255, 255, 255, 0.05);
+  }
+  .userContent .codeInline {
+    color: var(--white);
+    background: var(--grey-bg2);
   }
   .Options,
   .Options .Flyout {
@@ -364,8 +384,6 @@ url-prefix("https://winworldpc.com/download") {
     filter: invert(1);
   }
   .Foot {
-    border-top: 1px solid var(--border1) !important;
-    border-bottom: 1px solid var(--border1) !important;
     background: var(--black) !important;
     padding: 3px
   }
@@ -460,6 +478,8 @@ url-prefix("https://forum.winworldpc.com/discussion/embed") {
     --white: #fff;
     --bg: #1d1d1d;
     --text: #ff9;
+    --focus-in: rgba(0, 0, 0, .075);
+    --focus-out: rgba(255, 102, 0, 0.6);
     --grey-bg1: #2f2f2f;
     --grey-bg2: #181717;
     --grey-bg3: #575555;
